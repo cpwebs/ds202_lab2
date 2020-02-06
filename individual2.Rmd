@@ -1,0 +1,19 @@
+---
+title: "lab2"
+output: html_document
+---
+##Question 1
+
+1.The ratings are distributed in a 0-5 scale with 3- 3.5 points being the most common score in the data set.The mean of the histogram is 3.19101. In terms of outliers, it is definitely noicible that there are no ratings over 4 points and very few in the 0-1.5 range.
+
+#image
+
+![Data set Ratings Histogram](../ds202_lab2/choco_hist.png)
+
+##Question 2
+
+2. If we compare both histograms we see that the majority of percentege is around the middle as the rating of the cocoa. There is a correlation between the two. Although we do see that in the percentage graph, there are a few that are on the high end, 85% - 100%, but there are no ratings over the 4 point mark. Therefore, ratings do not necessarily depend on the percentage of the chocolate bar.
+
+#image
+
+![Data set Percentage Histogram](../ds202_lab2/choco_hist_pct.png)
