@@ -1,0 +1,20 @@
+---
+title: "individual1"
+output: html_document
+---
+
+1. How are the ratings distributed? Draw a histogram of the ratings and describe it. Don’t forget to mention outliers, if there are any.
+
+The ratings are rated by its score and put into the respected bucket of the histogram. These ratings range from 0 to 5 with decimal points of .00, .25, .50, and .75 being part of classifying the buckets.
+
+
+There are a few outliers in the histogram with ratings of 1s and 5s either not having any values or very little values. Another outlier worth mentioning is the rating from 3.00 to 3.5 being the most frequent category of chocolate being rated. Below is the chocolate ratings.
+
+![Rating Histogram](../ds202_lab2/HistogramRating.png)
+
+2. Do ratings depend on the cacao percentage of a chocolate bar?
+
+It seems that cocoa percentage for the most part has a strong affect on the chocolate ratings because the histograms produce a similar result from the bell curve of both graphs. There are slight differences, however, the two curves are similar which means that they correlate with each other strongly. Below is the cocoa percentages.
+
+![Percentage Histogram](../ds202_lab2/CocoaPctHistogram.png)
+
