@@ -3,7 +3,7 @@ title: "Team Part"
 output: html_document
 ---
 
-Question 1: What is the overall number of chocolate bars rated?
+## Question 1: What is the overall number of chocolate bars rated?
 
 There are 1852 chocolate bars being rated. Code: length(choco$Rating).
 
@@ -12,7 +12,7 @@ choco <- read.csv("https://xdaiisu.github.io/ds202materials/hwlabs/choco.csv")
 length(choco$Rating)
 ```
 
-Question 2: How does the number of ratings depend on the year? Draw a bar chart of the number of reports.
+## Question 2: How does the number of ratings depend on the year? Draw a bar chart of the number of reports.
 
 The number of ratings have been going up since the dataset was created in 2006. However, in the year 2015, the ratings peaked and have been going back down since then. 
 
@@ -20,7 +20,7 @@ The number of ratings have been going up since the dataset was created in 2006. 
 barplot(table(choco$Review.Date))
 ```
 
-Question 3: Which are the three locations with the most ratings? How do ratings compare across these company locations?
+## Question 3: Which are the three locations with the most ratings? How do ratings compare across these company locations?
 
 The three locations are the USA at 787, France at 158, and Canada at 132. The ratings between these three countries are generally similar. All three give a majority of their ratings 3.0s and higher than 3.0 and below. Very few low ratings such as 1s and 2s occur. All in all, the three give pretty much all of their ratings between 2.5 and 3.5.
 
@@ -34,11 +34,11 @@ hist(france$Rating)
 hist(canada$Rating)
 ```
 
-Question 4: Brainstorm and write down an interesting question that can be answer from the dataset. The question should not duplicate the questions above.
+## Question 4: Brainstorm and write down an interesting question that can be answer from the dataset. The question should not duplicate the questions above.
 
 What chocolate bar has the lowest percentage of cocoa? Did this have an impact on the rating as a result?
 
-Question 5: Answer the question from the dataset.
+## Question 5: Answer the question from the dataset.
 
 The lowest chocolate bar was from the Chokolat Elot (Girard) which is 42% cocoa. This definitely could of had an impact on the rating because it was rated at 2.75 which is on the lower half of all rated chocolate bars.
 
@@ -46,7 +46,7 @@ The lowest chocolate bar was from the Chokolat Elot (Girard) which is 42% cocoa.
 choco[which.min(choco$Cocoa.Pct),]
 ```
 
-Question 6: Write one paragraph commenting on the workflow.
+## Question 6: Write one paragraph commenting on the workflow.
 
   In terms workflow, git hub was our biggest obstacle as neither of us had worked with it before and some of our files were saving in directories that were confusing to browse through. Once we got over all the github issues, which was about 3 hours of work time, everything else was pretty simple, except trying to make the plot for question 2, about one hour of cumulative time was spent there.  
   Many of the solutions to these questions were solved from basic R functions. What's unique about how we answered these questions was how we interpretted certain graphs and approached problems. There could have been more concise answers or solutions, however, we made our answers based on how it would be the best interpretted and followed by anyone. For instance, question 3 might have used more R code than other solutions but the approach is simple and can be easily followed and reciprocated. 
